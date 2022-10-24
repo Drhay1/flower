@@ -1,2 +1,2 @@
-# flower
-a simple landing page for a flower project
+# sofa
+a simple landing page for a sofa project
