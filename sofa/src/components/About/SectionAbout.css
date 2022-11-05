@@ -1,0 +1,100 @@
+.About-Main {
+    padding: 0 100px;
+    width: 100%;
+}
+
+.About-Main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.About-Main .About {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.About .About-content {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.About .About-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px 100px;
+
+}
+
+
+.About .About-content p {
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    line-height: 1.6;
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .About-Main {
+        padding: 0;
+        width: 100%;
+    }
+
+    .About-Main .About {
+        display: flex;
+        flex-direction: column;;
+    }
+
+    .About img {
+        width: 100%;
+    }
+
+    .About .About-content {
+        position: relative;
+        padding: 10px 0;
+    }
+
+    .About .About-content h2 {
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .About .About-content p {
+        display: block;
+        font-size: 15px;
+        padding: 10px 30px;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    
+    }
+
+    .About .About-content .Learn {
+        display: inline-block;
+        margin-left: 40px;
+        padding-left: 90px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+    .About-Main .About {
+        display: flex;
+        flex-direction: column;;
+    }
+
+    .About img {
+        position: relative;
+        width: 100%;
+    }
+
+}

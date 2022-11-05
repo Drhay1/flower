@@ -1,0 +1,160 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 50px; */
+    width: 100%;
+    /* padding-right: 50px; */
+}
+
+.heroleft {
+    align-items: center;
+    padding: 150px;
+    line-height: 1.2;
+    width: 50%;
+}
+
+.heroleft h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.heroleft h1  span {
+    color: #16C79A;
+}
+
+.heroleft p {
+    line-height: 1.4;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: #16C79A;
+    color: #fff;
+}
+
+.heroright {
+    width: 50%;
+    
+}
+.heroright img {
+    width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 760px) {
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .heroleft {
+        display: block;
+        width: 375px;
+        margin-top: 70px;
+        padding: 40px;
+    }
+
+    .heroleft h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+
+    }
+
+    .heroleft p {
+        line-height: 1.4;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: grey;
+    }
+    
+    .heroleft h1  span {
+        color: #16C79A;
+    }
+    .btn {
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        background-color: #16C79A;
+        color: #fff;
+    }
+
+    .heroright {
+        width: 375px;
+
+        
+    }
+    .heroright img {
+        width: 100%;
+        outline: none;
+    
+    }
+
+
+
+    
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+    .hero {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .heroleft {
+        display: block;
+        width: 375px;
+        margin-top: 70px;
+        padding: 40px;
+    }
+
+    .heroleft h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    .heroleft p {
+        line-height: 1.4;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: grey;
+    }
+    
+    .heroleft h1  span {
+        color: #16C79A;
+    }
+    .btn {
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        background-color: #16C79A;
+        color: #fff;
+    }
+
+    .heroright {
+        width: 375px;
+
+        
+    }
+    .heroright img {
+        width: 100%;
+        outline: none;
+    
+    }
+
+
+
+    
+}
+
